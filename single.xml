@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Cross Browser Single Test">
+	<parameter name="url" value="https://www.lambdatest.com/" />
+	<test name="Chrome Browser Testing">
+		<parameter name="browser" value="Chrome" />
+		<parameter name="version" value="86" />
+		<parameter name="platform" value="Windows 10" />
+		<classes>
+			<class name="com.lambda.test.SeleniumLambdaTest" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="Edge Browser Testing">
+		<parameter name="browser" value="Edge" />
+		<parameter name="version" value="87.0" />
+		<parameter name="platform" value="macOS Sierra" />
+		<classes>
+			<class name="com.lambda.test.SeleniumLambdaTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

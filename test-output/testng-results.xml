@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[<===== Start of Test Method =====>]]>
+    </line>
+    <line>
+      <![CDATA[Setting desired Capabilities]]>
+    </line>
+    <line>
+      <![CDATA[Connecting to hub/ Grid]]>
+    </line>
+    <line>
+      <![CDATA[Step1: Navigate to https://www.lambdatest.com/]]>
+    </line>
+    <line>
+      <![CDATA[Step2.Perform an Explicitly wait till the time all the elements in the DOM are available.]]>
+    </line>
+    <line>
+      <![CDATA[Step3. Scroll to the WebElement SEE ALL INTEGRATIONS using the scrollIntoView() method.]]>
+    </line>
+    <line>
+      <![CDATA[Step4. Click on the link and and validate url]]>
+    </line>
+    <line>
+      <![CDATA[Step6. Verify whether the URL is the same as the expected URL-->]]>
+    </line>
+    <line>
+      <![CDATA[Step7. On that page, scroll to the page where the WebElement Codeless Automation is present]]>
+    </line>
+    <line>
+      <![CDATA[Step8. Click the LEARN MORE link for Testing Whiz. The page should open in the same window.]]>
+    </line>
+    <line>
+      <![CDATA[Step9. Check if the title of the page is ‘TestingWhiz Integration | LambdaTest]]>
+    </line>
+    <line>
+      <![CDATA[STep12. On the current window, set the URL to https://www.lambdatest.com/blog ]]>
+    </line>
+    <line>
+      <![CDATA[Step13. Click on the Community link and verify whether the URL is --> https://community.lambdatest.com/]]>
+    </line>
+    <line>
+      <![CDATA[<+======Ending the Test Method =====>]]>
+    </line>
+    <line>
+      <![CDATA[Step14. Close the current browser window]]>
+    </line>
+    <line>
+      <![CDATA[Closing the browser session]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-10-08T20:55:18 IST" name="Suite" finished-at="2022-10-08T20:55:53 IST" duration-ms="35656">
+    <groups>
+    </groups>
+    <test started-at="2022-10-08T20:55:18 IST" name="Chrome Browser Testing" finished-at="2022-10-08T20:55:53 IST" duration-ms="35656">
+      <class name="com.lambda.test.SeleniumLambdaTest">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method,org.testng.ITestContext,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.lambda.test.SeleniumLambdaTest@16ec5519]" started-at="2022-10-08T20:55:18 IST" name="setup" finished-at="2022-10-08T20:55:32 IST" duration-ms="13985" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.lambda.test.SeleniumLambdaTest.AdvancedSeleniumTestValidation(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@15fb7a32]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[latest]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Windows 10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<===== Start of Test Method =====>]]>
+            </line>
+            <line>
+              <![CDATA[Setting desired Capabilities]]>
+            </line>
+            <line>
+              <![CDATA[Connecting to hub/ Grid]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="AdvancedSeleniumTestValidation(java.lang.String)[pri:0, instance:com.lambda.test.SeleniumLambdaTest@16ec5519]" started-at="2022-10-08T20:55:32 IST" name="AdvancedSeleniumTestValidation" finished-at="2022-10-08T20:55:52 IST" duration-ms="19708" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.lambdatest.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Step1: Navigate to https://www.lambdatest.com/]]>
+            </line>
+            <line>
+              <![CDATA[Step2.Perform an Explicitly wait till the time all the elements in the DOM are available.]]>
+            </line>
+            <line>
+              <![CDATA[Step3. Scroll to the WebElement SEE ALL INTEGRATIONS using the scrollIntoView() method.]]>
+            </line>
+            <line>
+              <![CDATA[Step4. Click on the link and and validate url]]>
+            </line>
+            <line>
+              <![CDATA[Step6. Verify whether the URL is the same as the expected URL-->]]>
+            </line>
+            <line>
+              <![CDATA[Step7. On that page, scroll to the page where the WebElement Codeless Automation is present]]>
+            </line>
+            <line>
+              <![CDATA[Step8. Click the LEARN MORE link for Testing Whiz. The page should open in the same window.]]>
+            </line>
+            <line>
+              <![CDATA[Step9. Check if the title of the page is ‘TestingWhiz Integration | LambdaTest]]>
+            </line>
+            <line>
+              <![CDATA[STep12. On the current window, set the URL to https://www.lambdatest.com/blog ]]>
+            </line>
+            <line>
+              <![CDATA[Step13. Click on the Community link and verify whether the URL is --> https://community.lambdatest.com/]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AdvancedSeleniumTestValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lambda.test.SeleniumLambdaTest@16ec5519]" started-at="2022-10-08T20:55:52 IST" name="tearDown" finished-at="2022-10-08T20:55:53 IST" duration-ms="1864" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[<+======Ending the Test Method =====>]]>
+            </line>
+            <line>
+              <![CDATA[Step14. Close the current browser window]]>
+            </line>
+            <line>
+              <![CDATA[Closing the browser session]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.lambda.test.SeleniumLambdaTest -->
+    </test> <!-- Chrome Browser Testing -->
+  </suite> <!-- Suite -->
+</testng-results>
